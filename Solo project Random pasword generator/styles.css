@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&family=Montserrat:wght@500&display=swap');
+
+
+body{
+    
+    background: black;
+
+}
+.smolltekst{
+    margin-right: 125px;
+    margin-left: 52px;
+    font-family: Inter;
+}
+#tekst{
+    padding-top: 70px;
+    margin-right: 114px;
+    margin-left: 52px;
+    margin-top: 100px;
+    font-family: karla;
+    line-height: 40px;
+    font-size: 40px ;
+    font-weight: 800;
+}
+#one{
+    color:#4ADF86; ;
+}
+.Generator{
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    background:#1F2937;
+}
+
+
+.btn{
+   align-items: center;
+    display: inline-flex;
+    align-items: center;
+}
+#Generatebtn{
+     cursor: pointer;
+    border: none;
+    margin-left: 52px;
+    margin-top: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+}
+.outputfields{
+    font-size: 9px;
+    border-top: 1px solid rgb(128, 128, 128);
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.field{
+    overflow: hidden;
+    text-align: center;
+    font-family: Inter;
+    color: #55F991;
+    border-radius: 5px;
+    margin-top: 30px;
+    background:#273549;
+    width: 211px;
+    height: 39px;
+    flex-shrink: 0;
+}
+
